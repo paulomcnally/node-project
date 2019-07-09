@@ -4,5 +4,11 @@
   "description": "Proyecto de prueba",
   "main": "app.js",
   "author": "Nombre Apellidos <correo@dominio.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
 }
