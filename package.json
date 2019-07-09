@@ -1,0 +1,8 @@
+{
+  "name": "project",
+  "version": "0.0.0",
+  "description": "Proyecto de prueba",
+  "main": "app.js",
+  "author": "Nombre Apellidos <correo@dominio.com>",
+  "license": "MIT"
+}
