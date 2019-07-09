@@ -1,3 +1,1 @@
-module.exports = function (req, res) {
-  res.send(req.body.a);
-}
+module.exports = (req, res) => res.send('create');

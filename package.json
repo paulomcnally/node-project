@@ -15,6 +15,12 @@
   },
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js -e js,json"
+    "dev": "nodemon app.js -e js,json",
+    "eslint": "node_modules/eslint/bin/eslint.js . --ext .js"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0"
   }
 }

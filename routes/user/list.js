@@ -1,5 +1,5 @@
 const controllers = require('../../controllers/');
 
-module.exports = function (router) {
+module.exports = (router) => {
   router.get('/', controllers.user.list);
 };

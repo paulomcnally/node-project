@@ -1,3 +1,1 @@
-module.exports = function (req, res) {
-  res.send('list');
-}
+module.exports = (req, res) => res.send('list');

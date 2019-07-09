@@ -1,6 +1,6 @@
 const config = require('../config/config');
 
-module.exports = function (req, res, next) {
+module.exports = (req, res, next) => {
   if (req.path === '/user/login') {
     next();
   } else if (req.headers.authorization === config.auth.token) {
@@ -11,4 +11,4 @@ module.exports = function (req, res, next) {
       code: 401,
     });
   }
-}
+};
